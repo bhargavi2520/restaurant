@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Epic Eats</h1>
+                <p>The Indian style</p>
+            </div>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="order.html">Catering</a></li>
+                <li><a href="index.html#map">Location</a></li>
+                <li><a href="#">Log In<i class="fa fa-user"></i> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="form-box">
+            <h2>Book A Table</h2>
+            <form>
+                <label for="party-size">Party size</label>
+                <select id="party-size" name="party-size">
+                    <option value="2">2 guests</option>
+                    <option value="3">3 guests</option>
+                    <option value="4">4 guests</option>
+                    <option value="5">5 guests</option>
+                    <option value="6">6 guests</option>
+                </select>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" value="2024-09-17">
+
+                <label for="time">Time</label>
+                <select id="time" name="time">
+                    <option value="9:30">9:30 PM</option>
+                </select>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

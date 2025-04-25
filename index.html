@@ -1,0 +1,106 @@
+<!--Restaurant Menu Page
+Description: Create a webpage for a restaurant with a menu of dishes, their prices, and descriptions.
+Features:
+Header with restaurant name and navigation
+Menu categories (e.g., appetizers, main courses, desserts)
+List of dishes with images, names, descriptions, and prices
+Contact information and reservation form
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Eats Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Epic Eats</h1>
+                <p>The Indian style</p>
+            </div>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="order.html">Catering</a></li>
+                <li><a href="#map">Location</a></li>
+                <li><a href="#">Log In<i class="fa fa-user"></i> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="restaurant-photo">
+            <div class="overlay">
+                <h1>Welcome to</h1>
+                <h3>Epic Eats</h3>
+                <h6>Embrace the symphony of tastes on your plate and savour the flavours that ignite your senses</h6>
+            </div>
+        </section>        
+
+        <section class="menu">
+            <h2>View Our Menu</h2>
+                <div class="category">
+                    <ul>
+                     <li><a href="menu.html#pureveg"><h3>PureVeg</h3></a></li>
+                     <li><a href="menu.html#non-veg"><h3>Non-Veg</h3></a></li>
+                     <li><a href="menu.html#bread"><h3>Bread's</h3></a></li>
+                     <li><a href="menu.html#rice"><h3>Rice</h3></a></li>           
+                     <li><a href="menu.html#dessert"><h3>Dessert</h3></a></li>        
+                     <li><a href="menu.html#south-indian"><h3>South-Indian</h3></a></li> 
+                     <li><a href="menu.html#chinese"><h3>Chinese</h3></a></li>
+                     <li><a href="menu.html#drinks"><h3>Drinks</h3></a></li>
+                     <li><a href="menu.html"><h3>View Full Menu</h3></a></li>
+                 </ul>
+                </div>
+        </section>
+
+        <section class="reservations">
+            <div class="reserve-table">
+                <h3>Reserve a Table</h3>
+                <hr/>
+                <h6>Reserve your seat,Enjoy a Seamless ding experiance by ensuring your spot for an unforgettable meal.</h6>
+                <a href="reservation.html"> <button>Reserve a table</button></a>
+            </div>
+            <div class="order-online">
+                <h3>Order Online</h3>
+                <hr/>
+                <h6>Order online,Savor at home! Treat yourself with delicious food delivered straight to your door.</h6>
+                <a href="order.html"> <button>Order Online</button></a>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footertop">
+    <div class="footer-content">
+        <h3>Narsipatnam Junction</h3>
+        <p>Near to Bustop</p>
+        <p><strong>404-968-9563</strong></p>
+        <p>Mon-Fri: 10am-8pm</p>
+        <p>Sat-Sun: 10am-10pm</p>
+        <p>EpicEats123@gmail.com</p>
+    </div>
+    <div class="maps-container" id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.607545040374!2d80.71153351458316!3d17.662922088213165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4c19648e6a1c0f%3A0x56aef5cf1b3910d0!2sNarsipatnam%2C%20Andhra%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1633065746465!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>@2024 Epic Eats | All Rights Reserved</p>
+</section>
+
+        
+    </main>
+</body>
+</html>

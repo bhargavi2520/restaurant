@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online | Restaurant Name</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Epic Eats</h1>
+                <p>The Indian style</p>
+            </div>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="order.html">Catering</a></li>
+                <li><a href="index.html#map">Location</a></li>
+                <li><a href="#">Log In<i class="fa fa-user"></i> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <h2>Order Your Favorite Food Online</h2>
+        <div class="order-container">
+            <form action="#" method="POST" class="order-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="food-item">Select Your Food Item:</label>
+                <input type="text"id="food-item"name="food-item"required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <input type="submit" value="Place Order" class="btn-submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Epic eats. All rights reserved.</p>
+    </footer>
+</body>
+</html>
